@@ -11,9 +11,7 @@ on your MagicMirror.
 
 ## Features
 
--   Fetches real-time PV data from your Hoymiles DTU via WiFi (using the
-    [`hoymiles_wifi`](https://pypi.org/project/hoymiles-wifi/) Python
-    library)
+-   Fetches real-time PV data from your Hoymiles DTU
 -   Displays:
     -   **Current power (W)**
     -   **Daily energy (kWh)**
@@ -37,7 +35,7 @@ This module relies on the following dependencies:
   ```bash
   pip3 install hoymiles-wifi
 
-- **Chart.js** — Used for rendering the donut chart (loaded automatically from CDN, no installation required).
+- **Chart.js** — A JavaScript library used to render the donut chart. No manual installation is required. The module automatically loads Chart.js from a public CDN (Content Delivery Network) when the MagicMirror starts.
 
 ## Installation
 
@@ -113,6 +111,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 -   Developed by **Jochen Temmen**
 -   Uses the
-    [`hoymiles_wifi`](https://pypi.org/project/hoymiles-wifi/) Python
+    [hoymiles_wifi](https://pypi.org/project/hoymiles-wifi/) Python
     library
 -   Built for the [MagicMirror²](https://magicmirror.builders/) platform
