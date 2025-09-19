@@ -71,7 +71,7 @@ Example:
   position: "top_left",
   config: {
     dtuIp: "192.168.178.56",        // IP address of your Hoymiles DTU
-    maxPower: 870,                 // Maximum system power in watts
+    maxPower: 870,                  // Maximum system power in watts
     updateInterval: 5 * 60 * 1000   // Update interval in milliseconds (default: 5 minutes)
   }
 }
