@@ -60,7 +60,7 @@ Add the module to the `modules` array in your `config.js`:
 
 | Option           | Default           | Description                                     |
 | ---------------- | ----------------- | ------------------------------------------------|
-| `dtuIp`          | *none (required)* | IP address of the DTU unit                      |
+| `dtuIp`          | *none (required)* | Local IP address of the DTU unit                |
 | `maxPower`       | *none (required)* | Maximum PV power capacity                       |
 | `updateInterval` | 5 * 60 * 1000     | How often to fetch and update data/history in ms|
 
@@ -70,8 +70,8 @@ Example:
   module: "MMM-HoymilesPVMonitor",
   position: "top_left",
   config: {
-    dtuIp: "192.168.178.93",        // IP address of your Hoymiles DTU
-    maxPower: 1740,                 // Maximum system power in watts
+    dtuIp: "192.168.178.56",        // IP address of your Hoymiles DTU
+    maxPower: 870,                 // Maximum system power in watts
     updateInterval: 5 * 60 * 1000   // Update interval in milliseconds (default: 5 minutes)
   }
 }
